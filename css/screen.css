@@ -126,12 +126,16 @@ blockquote {
   line-height: 32px;
   margin: 0 0 24px;
   font-family: 'Times New Roman', serif;
+    background: #F2FAF8;
+  color: #00B37D;
 }
 
 blockquote * {
   font-size: inherit;
   line-height: inherit;
+
 }
+
 
 figcaption {
   font-size: 12px;
