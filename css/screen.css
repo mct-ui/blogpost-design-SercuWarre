@@ -7,7 +7,8 @@
 html {
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
+  /* font-family:'Inter Web' 'Helvetica Neue', Helvetica, arial, sans-serif; */
+  font-family: "driod-serif",gerogia,serif;
   color: #5c6366;
   padding: 48px 24px 24px;
 }
@@ -15,6 +16,19 @@ html {
 body {
   max-width: 42em;
   margin: 0 auto;
+}
+
+/* fonts*/
+@font-face {
+    font-family: "Inter Web";
+    font-weight: 400;
+    src: url("../fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter Web";
+    font-weight: 700;
+    src: url("../fonts/Inter-Bold.woff2") format("woff2");
 }
 
 /*
