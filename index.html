@@ -23,11 +23,22 @@
     <link rel="stylesheet" href="css/screen.css" />
   </head>
   <body>
-    <header>
+    <article class="c-article">
+        <header class="c-article__header"></header>
+        <figure class="c-article__image"></figure>
+        <div class="c-article__body">
+            <div class="c-article__author"></div>
+            <div class="c-article__content"></div>
+        </div>
+    </article>
+
+
+
+    <header class="c-article__header">
       <p><time datetime="2018-17-02">17 februari 2018</time></p>
       <h1>Balancing Line Length And Font Size In Responsive Web Design</h1>
     </header>
-    <figure>
+    <figure class="c-article__image>
       <picture>
         <source srcset="img/picture@2x.jpg" media="(min-width: 1200px)" />
         <source srcset="img/picture.jpg" media="(min-width: 992px)" />
@@ -39,19 +50,21 @@
         />
       </picture>
     </figure>
-
-    <div class="C-author">
-      <img class="C-author__image" src="img/avatar.jpg" alt="Warre sercu" />
-      <div class="C-author__caption">
-        <h2 class="C-author__name">Warre Sercu</h2>
-        <p class="C-author__meta">
-          User Interface Designer
-          <span>
-            <span></span>
-          </span>
-        </p>
-      </div>
+    <div class="c-article__body">
+        <div class="c-article__author">
+            <figure class="C-author">
+                <img class="C-author__image" src="img/avatar.jpg" alt="Warre sercu" />
+                <figcaption class="C-author__caption">
+                    <h3 class="C-author__name">Warre Sercu</h3>
+                    <p class="C-author__meta">
+                        User Interface Designer
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
     </div>
+    <div class="c-article__content">
+        <div class="u-max-widht-sm">
     <p>
       As we refine our methods of responsive web design,* we’ve increasingly
       focus*ed on measure (another word for “line length”) and its relationship
@@ -99,5 +112,7 @@
       that this would assist readers by providing a consistent left (vertical)
       edge for the eye to return to after finishing each (horizontal) line.
     </p>
+    </div>
+</div>
   </body>
 </html>
