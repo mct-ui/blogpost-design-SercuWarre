@@ -11,6 +11,8 @@ html {
   font-family: "driod-serif",gerogia,serif;
   color: #5c6366;
   padding: 48px 24px 24px;
+  -webkit-font-smoothing:antialliased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
