@@ -8,10 +8,10 @@ html {
   font-size: 16px;
   line-height: 1.5;
   /* font-family:'Inter Web' 'Helvetica Neue', Helvetica, arial, sans-serif; */
-  font-family: "driod-serif",gerogia,serif;
+  font-family: 'driod-serif', gerogia, serif;
   color: #5c6366;
   padding: 48px 24px 24px;
-  -webkit-font-smoothing:antialliased;
+  -webkit-font-smoothing: antialliased;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -22,15 +22,15 @@ body {
 
 /* fonts*/
 @font-face {
-    font-family: "Inter Web";
-    font-weight: 400;
-    src: url("../fonts/Inter-Regular.woff2") format("woff2");
+  font-family: 'Inter Web';
+  font-weight: 400;
+  src: url('../fonts/Inter-Regular.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: "Inter Web";
-    font-weight: 700;
-    src: url("../fonts/Inter-Bold.woff2") format("woff2");
+  font-family: 'Inter Web';
+  font-weight: 700;
+  src: url('../fonts/Inter-Bold.woff2') format('woff2');
 }
 
 /*
@@ -57,6 +57,34 @@ img {
   vertical-align: top;
 }
 
+/* 
+    components: author
+*/
+.C-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+.C-author__image{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+.C-author__name,
+.C-author__meta{
+    margin-bottom: 0;
+}
+.C-author__meta{
+    font-size: 14px;
+    font-family: "Inter","Helvetica Neue", Helvetica,Arial, sans-serif;
+    line-height: 24px;
+}
+.C-author__name{
+    font-size: 16px;
+    line-height: 24px;
+}
+
 /*
     Elements: typography
     ---
@@ -65,7 +93,7 @@ img {
 h1,
 h2,
 h3 {
-    font-family: 'Inter Web',"helvetica Neue", helvetica, Arial, sans-serif;
+  font-family: 'Inter Web', 'helvetica Neue', helvetica, Arial, sans-serif;
   color: #17181a;
 }
 
@@ -74,7 +102,7 @@ h1 {
   line-height: 40px;
   margin: 0 0 24px;
 
-  font-family: "playfair Display",serif;
+  font-family: 'playfair Display', serif;
 }
 
 h2 {
@@ -82,8 +110,8 @@ h2 {
   line-height: 32px;
   margin: 0 0 24px;
 }
-*+h2{
-    margin-top: 48px;
+* + h2 {
+  margin-top: 48px;
 }
 
 h3 {
@@ -91,8 +119,6 @@ h3 {
   line-height: 24px;
   margin: 0 0 24px;
 }
-
-
 
 h4,
 h5,
@@ -150,18 +176,18 @@ hr {
 }
 
 a {
-  color: #00A1E6;
+  color: #00a1e6;
   transition: all 0.1s ease-in-out;
 }
 
 a:visited,
 a:active {
-  color: #00A1E6;
+  color: #00a1e6;
 }
 
 a:hover,
 a:focus {
-  color: #1abaff
+  color: #1abaff;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -257,3 +283,5 @@ a:focus {
     page-break-after: avoid;
   }
 }
+
+
